@@ -11,8 +11,8 @@ public class StringCalculator
         resultado.Equals(0);
     }
 
-    private object Suma(string numeros)
+    private int Suma(string numeros)
     {
-        throw new NotImplementedException();
+        return 0; 
     }
 }
