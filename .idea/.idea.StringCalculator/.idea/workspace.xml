@@ -7,15 +7,6 @@
     <list default="true" id="a695e28b-23d8-4319-be94-5b3f6da49e37" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/bin/Debug/net8.0/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/bin/Debug/net8.0/StringCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/bin/Debug/net8.0/StringCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/bin/Debug/net8.0/StringCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/ref/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/ref/StringCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/refint/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/refint/StringCalculator.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
@@ -58,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761163957631</updated>
-      <workItem from="1761163959271" duration="4232000" />
+      <workItem from="1761163959271" duration="4850000" />
     </task>
     <servers />
   </component>

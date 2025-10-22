@@ -1,5 +1,3 @@
-using System.Diagnostics.CodeAnalysis;
-
 namespace StringCalculator;
 
 public class StringCalculator
@@ -13,6 +11,8 @@ public class StringCalculator
 
     private int Suma(string numeros)
     {
-        return 0; 
+        if(numeros == "") 
+            return 0;
+        return 0;
     }
 }
