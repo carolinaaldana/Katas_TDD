@@ -22,6 +22,6 @@ public class StringCalculator
     {
         if(numeros == "") 
             return "0";
-        return null;
+        return numeros;
     }
 }
