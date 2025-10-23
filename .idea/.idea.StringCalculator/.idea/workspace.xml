@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="a695e28b-23d8-4319-be94-5b3f6da49e37" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/bin/Debug/net8.0/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/bin/Debug/net8.0/StringCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/bin/Debug/net8.0/StringCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/bin/Debug/net8.0/StringCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/ref/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/ref/StringCalculator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/refint/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/refint/StringCalculator.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +30,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/992cf17f9b2cf4215ab3e6471552917c84de3ac1b86e54521136f03ea78c/StringAsserts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d882146b4f265f10bcbec2663fce248db9ffec5fa1aeaf76e32a11ba5eafcd6/MethodBaseInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Maria.aldana/RiderProjects/StringCalculator/StringCalculator/StringCalculatorTest.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -61,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761163957631</updated>
       <workItem from="1761163959271" duration="8529000" />
-      <workItem from="1761228460800" duration="20923000" />
+      <workItem from="1761228460800" duration="22413000" />
     </task>
     <servers />
   </component>
@@ -90,13 +101,13 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs</url>
-          <line>93</line>
+          <line>97</line>
           <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Suma'">
             <startOffsets>
-              <option value="2250" />
+              <option value="2462" />
             </startOffsets>
             <endOffsets>
-              <option value="2271" />
+              <option value="2483" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="15" />
@@ -106,10 +117,10 @@
           <line>87</line>
           <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Suma'">
             <startOffsets>
-              <option value="2050" />
+              <option value="2072" />
             </startOffsets>
             <endOffsets>
-              <option value="2089" />
+              <option value="2111" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="16" />
@@ -275,10 +286,10 @@
           <line>90</line>
           <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Suma'">
             <startOffsets>
-              <option value="2121" />
+              <option value="2143" />
             </startOffsets>
             <endOffsets>
-              <option value="2168" />
+              <option value="2190" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="29" />
@@ -288,13 +299,39 @@
           <line>91</line>
           <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Suma'">
             <startOffsets>
-              <option value="2177" />
+              <option value="2199" />
             </startOffsets>
             <endOffsets>
-              <option value="2240" />
+              <option value="2262" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs</url>
+          <line>78</line>
+          <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Si_EnvioNumerosNegativos_DevuelveMensajeConListaDeNumerosNegativos'">
+            <startOffsets>
+              <option value="1846" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1910" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs</url>
+          <line>81</line>
+          <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Si_EnvioNumerosNegativos_DevuelveMensajeConListaDeNumerosNegativos'">
+            <startOffsets>
+              <option value="1946" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2012" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

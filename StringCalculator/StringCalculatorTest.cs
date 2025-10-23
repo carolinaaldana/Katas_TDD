@@ -90,6 +90,10 @@ public class StringCalculator
 
         var matches = Regex.Matches(numeros, @"-?\d+");
         var valores = matches.Select(m => int.Parse(m.Value)).ToList();
+        
+        var negativos = valores.Where(x => x < 0).ToList();
+        if (negativos.Any())
+            throw new Exception($"Negativos no permitidos: {string.Join(",", negativos)}");
 
         return valores.Sum();
 
