@@ -10,18 +10,18 @@ public class StringCalculator
     }
 
     [Theory]
-    [InlineData("1")]
-    [InlineData("2")]
-    public void Si_Envio_Un_Numero_Devuelve_El_Mismo_Numero(string numero)
+    [InlineData("1",1)]
+    [InlineData("2",2)]
+    public void Si_Envio_Un_Numero_Devuelve_El_Mismo_Numero(string numEntrada, int numEsperado)
     {
-        var resultado = Suma(numero);
-        resultado.Equals(numero);
+        var resultado = Suma(numEntrada);
+        resultado.Equals(numEsperado);
     }
 
-    private string Suma(string numeros)
+    private int Suma(string numeros)
     {
         if(numeros == "") 
-            return "0";
-        return numeros;
+            return int.Parse("0");
+        return int.Parse(numeros);
     }
 }
