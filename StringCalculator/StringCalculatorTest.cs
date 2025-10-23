@@ -18,6 +18,15 @@ public class StringCalculator
         resultado.Equals(numEsperado);
     }
 
+    [Theory]
+    [InlineData("1,2", 3)]
+    [InlineData("2,3", 5)]
+    public void Si_Envio_Dos_Numeros_Devuelve_La_Suma(string numEntrada, int numEsperado)
+    {
+        var resultado = Suma(numEntrada);
+        resultado.Equals(numEsperado);
+    }
+
     private int Suma(string numeros)
     {
         if(numeros == "") 
