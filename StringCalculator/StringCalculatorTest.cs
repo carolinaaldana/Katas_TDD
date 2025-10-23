@@ -47,6 +47,16 @@ public class StringCalculator
         resultado.Equals(numEsperado);
     }
 
+    [Fact]
+    public void Si_EnvioVariosNumeros_SeparadosPorSaltosDeLineaoComas_DevuelveLaSuma()
+    {
+        // Act
+        var resultado = Suma("1\n2,3");
+        
+        // Assert
+        resultado.Equals(6);
+    }
+
     private int Suma(string numeros)
     {
         if (string.IsNullOrEmpty(numeros))
