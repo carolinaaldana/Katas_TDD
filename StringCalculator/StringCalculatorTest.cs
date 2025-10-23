@@ -31,6 +31,8 @@ public class StringCalculator
     {
         if(numeros == "") 
             return int.Parse("0");
-        return int.Parse(numeros);
+        
+        var separador = numeros.Split(",");
+        return separador.Select(int.Parse).Sum();
     }
 }
