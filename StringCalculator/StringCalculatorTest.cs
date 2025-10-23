@@ -72,6 +72,17 @@ public class StringCalculator
         
     }
 
+    [Fact]
+    public void Si_EnvioNumerosNegativos_DevuelveMensajeConListaDeNumerosNegativos()
+    {
+        // Act
+        var resultado = Assert.Throws<Exception>(() => Suma("1,-2,-3"));
+        
+        // Assert
+        Assert.Equal("Negativos no permitidos: -2,-3", resultado.Message);
+
+    }
+
     private int Suma(string numeros)
     {
         if (string.IsNullOrWhiteSpace(numeros))

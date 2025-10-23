@@ -61,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761163957631</updated>
       <workItem from="1761163959271" duration="8529000" />
-      <workItem from="1761228460800" duration="18021000" />
+      <workItem from="1761228460800" duration="20923000" />
     </task>
     <servers />
   </component>
@@ -90,26 +90,26 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs</url>
-          <line>82</line>
+          <line>93</line>
           <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Suma'">
             <startOffsets>
-              <option value="1972" />
+              <option value="2250" />
             </startOffsets>
             <endOffsets>
-              <option value="1993" />
+              <option value="2271" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs</url>
-          <line>76</line>
+          <line>87</line>
           <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Suma'">
             <startOffsets>
-              <option value="1772" />
+              <option value="2050" />
             </startOffsets>
             <endOffsets>
-              <option value="1811" />
+              <option value="2089" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="16" />
@@ -272,26 +272,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs</url>
-          <line>79</line>
+          <line>90</line>
           <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Suma'">
             <startOffsets>
-              <option value="1843" />
+              <option value="2121" />
             </startOffsets>
             <endOffsets>
-              <option value="1890" />
+              <option value="2168" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs</url>
-          <line>80</line>
+          <line>91</line>
           <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Suma'">
             <startOffsets>
-              <option value="1899" />
+              <option value="2177" />
             </startOffsets>
             <endOffsets>
-              <option value="1962" />
+              <option value="2240" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="30" />
