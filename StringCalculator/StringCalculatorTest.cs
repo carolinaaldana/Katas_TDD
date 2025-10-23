@@ -79,7 +79,7 @@ public class StringCalculator
         var resultado = Assert.Throws<Exception>(() => Suma("1,-2,-3"));
         
         // Assert
-        Assert.Equal("Negativos no permitidos: -2,-3", resultado.Message);
+        Assert.Equal("Números negativos no permitidos: -2,-3", resultado.Message);
 
     }
 
@@ -93,7 +93,10 @@ public class StringCalculator
         
         var negativos = valores.Where(x => x < 0).ToList();
         if (negativos.Any())
-            throw new Exception($"Negativos no permitidos: {string.Join(",", negativos)}");
+        {
+            var lista = string.Join(",", negativos);
+            throw new Exception($"Números negativos no permitidos: {lista}");
+        }
 
         return valores.Sum();
 

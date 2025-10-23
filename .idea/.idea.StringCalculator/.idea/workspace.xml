@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a695e28b-23d8-4319-be94-5b3f6da49e37" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/bin/Debug/net8.0/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/bin/Debug/net8.0/StringCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/bin/Debug/net8.0/StringCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/bin/Debug/net8.0/StringCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/StringCalculator.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/ref/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/ref/StringCalculator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/refint/StringCalculator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/obj/Debug/net8.0/refint/StringCalculator.dll" afterDir="false" />
-    </list>
+    <list default="true" id="a695e28b-23d8-4319-be94-5b3f6da49e37" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761163957631</updated>
       <workItem from="1761163959271" duration="8529000" />
-      <workItem from="1761228460800" duration="22413000" />
+      <workItem from="1761228460800" duration="23022000" />
     </task>
     <servers />
   </component>
