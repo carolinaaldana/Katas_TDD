@@ -62,6 +62,7 @@ public class StringCalculator
         if (string.IsNullOrEmpty(numeros))
             return 0;
         
+        numeros = numeros.Replace("\n", ",");
         var partes = numeros.Split(",");
         return partes.Select(int.Parse).Sum();
     }
