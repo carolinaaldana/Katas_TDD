@@ -76,9 +76,11 @@ public class StringCalculator
     {
         if (string.IsNullOrWhiteSpace(numeros))
             return 0;
-        
-        return Regex.Matches(numeros, @"-?\d+")
-            .Select(m => int.Parse(m.Value))
-            .Sum();
+
+        var matches = Regex.Matches(numeros, @"-?\d+");
+        var valores = matches.Select(m => int.Parse(m.Value)).ToList();
+
+        return valores.Sum();
+
     }
 }
