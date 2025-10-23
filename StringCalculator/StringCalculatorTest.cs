@@ -38,7 +38,7 @@ public class StringCalculator
     
     [Theory]
     [InlineData("1,2,3,4,5,6,7,8,9", 45)]
-    public void Si_EnvioUnaCantidadDeNumerosDesconocida_DevuelveLa_Suma(string numEntrada, int numEsperado)
+    public void Si_EnvioUnaCantidadDeNumerosDesconocida_DevuelveLaSuma(string numEntrada, int numEsperado)
     {
         // Act
         var resultado = Suma(numEntrada);
@@ -59,7 +59,7 @@ public class StringCalculator
 
     private int Suma(string numeros)
     {
-        if (string.IsNullOrEmpty(numeros))
+        if (string.IsNullOrWhiteSpace(numeros))
             return 0;
         
         numeros = numeros.Replace("\n", ",");
