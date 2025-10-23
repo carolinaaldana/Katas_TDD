@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 namespace StringCalculator;
 
 public class StringCalculator
@@ -75,8 +77,8 @@ public class StringCalculator
         if (string.IsNullOrWhiteSpace(numeros))
             return 0;
         
-        numeros = numeros.Replace("\n", ",");
-        var partes = numeros.Split(",");
-        return partes.Select(int.Parse).Sum();
+        return Regex.Matches(numeros, @"-?\d+")
+            .Select(m => int.Parse(m.Value))
+            .Sum();
     }
 }
