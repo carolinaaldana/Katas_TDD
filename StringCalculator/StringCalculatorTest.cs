@@ -57,6 +57,19 @@ public class StringCalculator
         resultado.Equals(6);
     }
 
+    [Theory]
+    [InlineData("1\n2,3", 6)]
+    [InlineData("//;\n1;2", 3)]
+    public void Si_EnvioVariosNumeros_SeparadosPorCualquierCaracter_DevuelveLaSuma(string numEntrada, int numEsperado)
+    {
+        // Act
+        var resultado = Suma(numEntrada);
+        
+        // Assert
+        resultado.Equals(numEsperado);
+        
+    }
+
     private int Suma(string numeros)
     {
         if (string.IsNullOrWhiteSpace(numeros))
