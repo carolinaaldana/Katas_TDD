@@ -35,6 +35,17 @@ public class StringCalculator
         // Assert
         resultado.Equals(numEsperado);
     }
+    
+    [Theory]
+    [InlineData("1,2,3,4,5,6,7,8,9", 45)]
+    public void Si_Envio_Una_Cantidad_De_Numeros_Desconocida_Devuelve_La_Suma(string numEntrada, int numEsperado)
+    {
+        // Act
+        var resultado = Suma(numEntrada);
+        
+        // Assert
+        resultado.Equals(numEsperado);
+    }
 
     private int Suma(string numeros)
     {

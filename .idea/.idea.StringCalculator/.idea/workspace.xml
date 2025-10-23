@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a695e28b-23d8-4319-be94-5b3f6da49e37" name="Changes" comment="" />
+    <list default="true" id="a695e28b-23d8-4319-be94-5b3f6da49e37" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StringCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761163957631</updated>
       <workItem from="1761163959271" duration="8529000" />
-      <workItem from="1761228460800" duration="7476000" />
+      <workItem from="1761228460800" duration="8182000" />
     </task>
     <servers />
   </component>
@@ -82,58 +85,6 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs</url>
-          <line>25</line>
-          <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Si_Envio_Dos_Numeros_Devuelve_La_Suma'">
-            <startOffsets>
-              <option value="625" />
-            </startOffsets>
-            <endOffsets>
-              <option value="658" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs</url>
-          <line>31</line>
-          <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Suma'">
-            <startOffsets>
-              <option value="756" />
-            </startOffsets>
-            <endOffsets>
-              <option value="773" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs</url>
-          <line>34</line>
-          <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Suma'">
-            <startOffsets>
-              <option value="827" />
-            </startOffsets>
-            <endOffsets>
-              <option value="862" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/StringCalculator/StringCalculatorTest.cs</url>
-          <line>35</line>
-          <properties documentPath="C:\Users\Maria.aldana\RiderProjects\StringCalculator\StringCalculator\StringCalculatorTest.cs" containingFunctionPresentation="Method 'Suma'">
-            <startOffsets>
-              <option value="871" />
-            </startOffsets>
-            <endOffsets>
-              <option value="912" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
