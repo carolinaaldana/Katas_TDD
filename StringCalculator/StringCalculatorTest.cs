@@ -3,7 +3,7 @@ namespace StringCalculator;
 public class StringCalculator
 {
     [Fact]
-    public void Si_Envio_Cadena_Vacia_Devuelve_Cero ()
+    public void Si_EnvioCadenaVacia_DevuelveCero ()
     {
         // Act
         var resultado = Suma("");
@@ -15,7 +15,7 @@ public class StringCalculator
     [Theory]
     [InlineData("1",1)]
     [InlineData("2",2)]
-    public void Si_Envio_Un_Numero_Devuelve_El_Mismo_Numero(string numEntrada, int numEsperado)
+    public void Si_EnvioUnNumero_DevuelveElMismoNumero(string numEntrada, int numEsperado)
     {
         // Act
         var resultado = Suma(numEntrada);
@@ -27,7 +27,7 @@ public class StringCalculator
     [Theory]
     [InlineData("1,2", 3)]
     [InlineData("2,3", 5)]
-    public void Si_Envio_Dos_Numeros_Devuelve_La_Suma(string numEntrada, int numEsperado)
+    public void Si_EnvioDosNumeros_DevuelveLaSuma(string numEntrada, int numEsperado)
     {
         // Act
         var resultado = Suma(numEntrada);
@@ -38,7 +38,7 @@ public class StringCalculator
     
     [Theory]
     [InlineData("1,2,3,4,5,6,7,8,9", 45)]
-    public void Si_Envio_Una_Cantidad_De_Numeros_Desconocida_Devuelve_La_Suma(string numEntrada, int numEsperado)
+    public void Si_EnvioUnaCantidadDeNumerosDesconocida_DevuelveLa_Suma(string numEntrada, int numEsperado)
     {
         // Act
         var resultado = Suma(numEntrada);
