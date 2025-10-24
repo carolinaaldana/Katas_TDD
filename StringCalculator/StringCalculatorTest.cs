@@ -83,6 +83,18 @@ public class StringCalculator
 
     }
 
+    [Theory]
+    [InlineData("5,10000000000000000000000000000000000000000000001, 2", 7)]
+    //[InlineData("1;1001//2,5", 8)]
+    public void Si_EnvioNumerosMayoresDeMilIgnorarlos_DevuelveLaSuma(string numEntrada, int numEsperado)
+    {
+        // Act
+        var resultado = Suma(numEntrada);
+        
+        // Assert
+        resultado.Equals(numEsperado);
+    }
+
     private int Suma(string numeros)
     {
         if (string.IsNullOrWhiteSpace(numeros))
