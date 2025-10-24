@@ -100,8 +100,9 @@ public class StringCalculator
         if (string.IsNullOrWhiteSpace(numeros))
             return 0;
 
-        var matches = Regex.Matches(numeros, @"-?\d+");
-        var valores = matches.Select(m => int.Parse(m.Value)).ToList();
+        var valores = Regex.Matches(numeros, @"-?\d+")
+            .Select(m => int.Parse(m.Value))
+            .ToList();
         
         var negativos = valores.Where(x => x < 0).ToList();
         if (negativos.Any())
