@@ -84,8 +84,8 @@ public class StringCalculator
     }
 
     [Theory]
-    [InlineData("5,10000000000000000000000000000000000000000000001, 2", 7)]
-    //[InlineData("1;1001//2,5", 8)]
+    [InlineData("5,1030, 2", 7)]
+    [InlineData("1;1001//2,5", 8)]
     public void Si_EnvioNumerosMayoresDeMilIgnorarlos_DevuelveLaSuma(string numEntrada, int numEsperado)
     {
         // Act
@@ -110,7 +110,7 @@ public class StringCalculator
             throw new Exception($"Números negativos no permitidos: {lista}");
         }
 
-        return valores.Sum();
+        return valores.Where(x => x <= 1000).Sum();
 
     }
 }
